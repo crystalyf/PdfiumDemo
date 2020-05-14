@@ -1,4 +1,4 @@
-package com.change.preview;
+package com.change.pdfiumdemo.preview;
 
 import android.content.Context;
 import android.graphics.Bitmap;

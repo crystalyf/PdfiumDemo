@@ -12,9 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.change.preview.FileUtils;
-import com.change.preview.VerticalGridAdapter;
-import com.change.preview.PreviewUtils;
+import com.change.pdfiumdemo.preview.FileUtils;
+import com.change.pdfiumdemo.preview.VerticalGridAdapter;
+import com.change.pdfiumdemo.preview.PreviewUtils;
 import com.shockwave.pdfium.PdfDocument;
 import com.shockwave.pdfium.PdfiumCore;
 
