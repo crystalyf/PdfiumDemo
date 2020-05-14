@@ -18,7 +18,7 @@ import com.shockwave.pdfium.PdfiumCore;
  * 作者：齐行超
  * 日期：2019.08.08
  */
-public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder> {
+public class VerticalGridAdapter extends RecyclerView.Adapter<VerticalGridAdapter.GridViewHolder> {
 
     Context context;
     PdfiumCore pdfiumCore;
@@ -27,7 +27,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
     int totalPageNum;
 
 
-    public GridAdapter(Context context, PdfiumCore pdfiumCore, PdfDocument pdfDocument, String pdfName, int totalPageNum) {
+    public VerticalGridAdapter(Context context, PdfiumCore pdfiumCore, PdfDocument pdfDocument, String pdfName, int totalPageNum) {
         this.context = context;
         this.pdfiumCore = pdfiumCore;
         this.pdfDocument = pdfDocument;
@@ -37,7 +37,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
 
     @Override
     public GridViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.grid_item, null);
+        View view = LayoutInflater.from(context).inflate(R.layout.grid_item_vertical, null);
         return new GridViewHolder(view);
     }
 
